@@ -157,7 +157,7 @@ class _app {
 				localPosition: new PIXI.Point (),
 			},
 			Tilemap: {
-				res: 'maps/map001.tmx',
+				res: 'maps/map001.json',
 				layer: 'Default',
 				zIndex: 0,
 				zOrder: 0,

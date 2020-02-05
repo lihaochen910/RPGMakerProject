@@ -24,7 +24,7 @@ class TilemapLoadSystem extends System {
 						 *   PIXI.extras.TiledMap() is an extended PIXI.Container()
 						 *   so you can render it right away
 						 */
-						component.tilemap = new PIXI.extras.TiledMap ( component.res );
+						component.tilemap = new PIXI.tilemap.TiledMap ( component.res );
 						component.isReady = true;
 						component.isLoading = false;
 
